@@ -15,7 +15,7 @@ export default class Register extends Component {
     handleSubmit = async (event) => {
         event.preventDefault();
         const{ firstName, lastName, phoneNo, address, email, password } = this.state;
-        let data = { firstName: firstName, lastName: lastName, phoneNo: phoneNo, address: address, email, password };
+        let data = { firstName: firstName, lastName: lastName, phoneNo: phoneNo, address: address, email, password, verify: 1, role: 'seller' };
         let user = await GetUserLogin.getUserRegister(data);
         if (user) {
             this.setState({ redirectToReferrer: true })

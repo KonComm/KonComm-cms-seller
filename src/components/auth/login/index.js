@@ -68,7 +68,7 @@ export default class Signin extends Component {
                               className="brand_logo"
                               alt="Logo"
                             />
-                            <h4 className="fs-24">Chitwashop Seller Center!</h4>
+                            <h4 className="fs-24">KonComm Distributor Center!</h4>
                             <p className="text-muted text-center mb-0">
                               Nice to see you! Please log in to your account.
                             </p>
@@ -135,7 +135,7 @@ export default class Signin extends Component {
                               onClick={this.handleSubmit}
                             />
                             <p className="text-muted text-center mt-3 mb-2">
-                              Copyright © 2020 ChitwaShop. All Rights Reserved
+                              Copyright © 2023 KonComm. All Rights Reserved
                             </p>
                           </form>
                         </div>

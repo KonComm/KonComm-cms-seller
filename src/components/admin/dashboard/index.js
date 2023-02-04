@@ -190,7 +190,7 @@ export default class Home extends Component {
                 <footer className="py-4 bg-footer mt-auto">
                     <div className="container-fluid">
                         <div className="d-flex align-items-center justify-content-between small">
-                            <div className="text-muted-1">© 2021 chitwashop pvt. ltd </div>
+                            <div className="text-muted-1">© 2023 KonComm pvt. ltd </div>
                             <div className="footer-links">
                                 <a href="/">Privacy Policy</a>
                                 <a href="/">Terms &amp; Conditions</a>
