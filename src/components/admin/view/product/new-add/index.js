@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, Paper } from "@material-ui/core";
 import MainCategorylist from "../../../../common/category/main-category";
-import { GetProductDetails } from "../../../../services";
+import { GetProductDetails, GetCategoryDetails } from "../../../../services";
 import Loader from "../../../../loader";
 import swal from "sweetalert";
 import Pricecolormanagement from "./price-management";
@@ -115,7 +115,7 @@ export default class Newproduct extends Component {
     let disableSaveButton =
       !selectedCategory ||
       !warrantyType ||
-      !warrantyPeriod ||
+      //!warrantyPeriod ||
       !ShippingDays ||
       !priceDetails.length ||
       !SpecificationDetails.length ||
