@@ -443,12 +443,12 @@ export default class Newproduct extends Component {
                         <option disabled selected>
                           Select type
                         </option>
-                        <option value="1">Local Seller Warranty</option>
-                        <option value="2">No Warranty</option>
-                        <option value="3">International Warranty</option>
-                        <option value="4">100% orginal product</option>
-                        <option value="5">Brand Warranty</option>
-                        <option value="6">Seller Warranty</option>
+                        <option value="Local">Local Seller Warranty</option>
+                        <option value="No">No Warranty</option>
+                        <option value="International">International Warranty</option>
+                        <option value="100% orginal">100% orginal product</option>
+                        <option value="Brand">Brand Warranty</option>
+                        <option value="Seller">Seller Warranty</option>
                       </select>
                     </div>
                   </div>
